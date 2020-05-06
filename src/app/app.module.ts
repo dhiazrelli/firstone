@@ -9,12 +9,20 @@ import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { FormsModule } from '@angular/forms';
 import { RobotComponent } from './robot/robot.component';
 import { MywebsitrComponent } from './mywebsitr/mywebsitr.component';
+import { FirstpageComponent } from './firstpage/firstpage.component';
+import { SecondpageComponent } from './secondpage/secondpage.component';
+import { ThirdpageComponent } from './thirdpage/thirdpage.component';
+import { AboutmeComponent } from './aboutme/aboutme.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     RobotComponent,
-    MywebsitrComponent
+    MywebsitrComponent,
+    FirstpageComponent,
+    SecondpageComponent,
+    ThirdpageComponent,
+    AboutmeComponent
   ],
   imports: [
     BrowserModule,
